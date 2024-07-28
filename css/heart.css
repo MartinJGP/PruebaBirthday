@@ -3,6 +3,7 @@ body {
     padding: 0;
     background: rgb(133, 25, 206);
     overflow: hidden;
+    touch-action: manipulation;
 }
 
 #myCanvas {
