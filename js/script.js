@@ -38,6 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
         image.addEventListener("click", () => {
             modalImage.src = image.src;
             modal.style.display = "block";
+            modalImage.style.marginTop = `${(window.innerHeight - modalImage.height) / 2}px`;
 
         });
     });
