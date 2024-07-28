@@ -151,8 +151,8 @@ FX.createHeart = function() {
 
     for( ;i<k;i=i+1 ) {
         FX.dots.push( new Dot({
-            dest_x : coords[i][0] * raster - (5 * raster), // Center horizontally
-            dest_y : coords[i][1] * raster - (5 * raster), // Center vertically
+            dest_x : coords[i][0] * raster - (4 * raster), // Center horizontally
+            dest_y : coords[i][1] * raster - (4 * raster), // Center vertically
             color: FX.config.color,
             size: 50 // Keep the size of each dot the same
         }) );
