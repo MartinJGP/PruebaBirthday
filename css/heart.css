@@ -8,17 +8,20 @@ body {
 
 #myCanvas {
     display: block;
+    touch-action: manipulation;
 }
 
 /* Add responsive styles */
 @media screen and (max-width: 768px) {
     .mylove {
+        touch-action: manipulation;
         height: 20px;
         width: 20px;
     }
 
     .mylove:before,
     .mylove:after {
+        touch-action: manipulation;
         height: 20px;
         width: 20px;
     }
@@ -26,6 +29,7 @@ body {
 
 @media screen and (max-width: 480px) {
     .mylove {
+        touch-action: manipulation;
         height: 15px;
         width: 15px;
     }
