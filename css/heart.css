@@ -11,26 +11,26 @@ body {
 
 /* Add responsive styles */
 @media screen and (max-width: 768px) {
-    .heart {
+    .mylove {
         height: 20px;
         width: 20px;
     }
 
-    .heart:before,
-    .heart:after {
+    .mylove:before,
+    .mylove:after {
         height: 20px;
         width: 20px;
     }
 }
 
 @media screen and (max-width: 480px) {
-    .heart {
+    .mylove {
         height: 15px;
         width: 15px;
     }
 
-    .heart:before,
-    .heart:after {
+    .mylove:before,
+    .mylove:after {
         height: 15px;
         width: 15px;
     }
