@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(133, 25, 206);
+    overflow: hidden;
+}
+
+#myCanvas {
+    display: block;
+}
+
+/* Add responsive styles */
+@media screen and (max-width: 768px) {
+    .heart {
+        height: 20px;
+        width: 20px;
+    }
+
+    .heart:before,
+    .heart:after {
+        height: 20px;
+        width: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .heart {
+        height: 15px;
+        width: 15px;
+    }
+
+    .heart:before,
+    .heart:after {
+        height: 15px;
+        width: 15px;
+    }
+}
