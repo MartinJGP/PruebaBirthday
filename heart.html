@@ -10,10 +10,18 @@
 
 </head>
 <body>
+<div class="ballon" style="animation-delay: 0s;"></div>
+<div class="ballon" style="animation-delay: 2s;"></div>
+<div class="ballon-2" style="animation-delay: 4s;"></div>
+<div class="ballon-2" style="animation-delay: 6s;"></div>
 <canvas width="400" height="300" id="myLove"></canvas>
-<div id="countdown" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: #000000; display: flex; justify-content: center; align-items: center; font-size: 2rem; z-index: 1000 ; text-align: center; color: white;"></div>
+<!--<div id="countdown" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: #000000; display: flex; justify-content: center; align-items: center; font-size: 2rem; z-index: 1000 ; text-align: center; color: white;"></div>-->
 <script src="js/heart.js"></script>
 <script>
+    document.querySelectorAll('.ballon').forEach(function(ballon) {
+        const randomOffset = Math.random() * 100 - 50 + 'vw';
+        ballon.style.setProperty('--randomOffset', randomOffset);
+    });
     //cooldown
     document.addEventListener("DOMContentLoaded", function() {
         const countdownElement = document.getElementById('countdown');

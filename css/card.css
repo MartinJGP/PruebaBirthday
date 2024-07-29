@@ -167,7 +167,10 @@ body {
     .shadow {
         width: 230px;
         height: 20px;
-        bottom: 200px;
-        left: 26%;
+        bottom: 50px;
+        left: 5em;
+    }
+    .valentines{
+        top: 150px;
     }
 }

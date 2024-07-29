@@ -23,7 +23,7 @@ modal.onclick = function() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    const images = document.querySelectorAll(".wrap1 .container .service img");
+    const images = document.querySelectorAll(".wrap1 .container .service img, .banner img");
     const modal = document.createElement("div");
     const modalContent = document.createElement("div");
     const modalImage = document.createElement("img");
