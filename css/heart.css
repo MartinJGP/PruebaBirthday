@@ -8,11 +8,13 @@ body {
     background: rgb(133, 25, 206);
     overflow: hidden;
     touch-action: none;
+
 }
 
 #myCanvas {
     display: block;
     touch-action: none;
+
 }
 .ballon {
     opacity: 0;

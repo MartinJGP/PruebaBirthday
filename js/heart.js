@@ -2,7 +2,17 @@
 document.addEventListener('touchmove', function(event) {
     event.preventDefault();
 }, { passive: false });
+function adjustBodySize() {
+    const canvas = document.getElementById('myLove');
+    document.body.style.width = `${canvas.width}px`;
+    document.body.style.height = `${canvas.height}px`;
+}
 
+// Call the function to adjust the size initially
+adjustBodySize();
+
+// Adjust the size whenever the window is resized
+window.addEventListener('resize', adjustBodySize);
 window.requestAnimFrame = (function () {
     return  window.requestAnimationFrame ||
         window.webkitRequestAnimationFrame ||
@@ -208,3 +218,4 @@ FX.canvas.addEventListener('mousedown', function(e) { FX.handleMouseEvent(e, 1);
 FX.setFullscreen();
 FX.createHeart();
 FX.loop();
+
