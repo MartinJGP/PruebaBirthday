@@ -7,12 +7,12 @@ body {
     padding: 0;
     background: rgb(133, 25, 206);
     overflow: hidden;
-    touch-action: manipulation;
+    touch-action: none;
 }
 
 #myCanvas {
     display: block;
-    touch-action: manipulation;
+    touch-action: none;
 }
 .ballon {
     opacity: 0;
@@ -73,14 +73,14 @@ body {
 /* Add responsive styles */
 @media screen and (max-width: 768px) {
     .mylove {
-        touch-action: manipulation;
+        touch-action: none;
         height: 20px;
         width: 20px;
     }
 
     .mylove:before,
     .mylove:after {
-        touch-action: manipulation;
+        touch-action: none;
         height: 20px;
         width: 20px;
     }
@@ -92,7 +92,7 @@ body {
 
 @media screen and (max-width: 480px) {
     .mylove {
-        touch-action: manipulation;
+        touch-action: none;
         height: 15px;
         width: 15px;
     }

@@ -1,4 +1,7 @@
-
+// Prevent default touch events
+document.addEventListener('touchmove', function(event) {
+    event.preventDefault();
+}, { passive: false });
 
 window.requestAnimFrame = (function () {
     return  window.requestAnimationFrame ||
