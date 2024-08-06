@@ -90,6 +90,10 @@ body {
         transform: scale(1);
         transform-origin: top left;
     }
+    .countdown{
+        width: 401px;
+        height: 850px
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -107,5 +111,9 @@ body {
     body {
         transform: scale(1);
         transform-origin: top left;
+    }
+    .countdown{
+        width: 401px;
+        height: 850px
     }
 }
