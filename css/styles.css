@@ -399,11 +399,21 @@ Video
     align-content: center;
 }
 
+
 /* Estilo base para modal-content */
 .modal-content {
     position: relative;
     background-color: transparent;
     margin: 20px auto; /* Centrado en la pantalla */
+    padding: 10px;
+    width: 48%; /* Ajuste inicial para pantallas grandes */
+    height: auto; /* Altura automática */
+}
+.modal-content2 {
+    position: relative;
+    background-color: transparent;
+    /* Centrado en la pantalla */
+    margin: auto;
     padding: 10px;
     width: 48%; /* Ajuste inicial para pantallas grandes */
     height: auto; /* Altura automática */
@@ -441,21 +451,6 @@ Video
 }
 
 /* Media Queries */
-@media (max-width: 768px) {
-    .header, .logo, .menu, .container, .box, .leftcol, .contact-form, .address, .footer {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .container {
-        padding: 20px;
-    }
-    .box {
-        width: 100%;
-    }
-    .service {
-        width: 100%;
-    }
-}
 
 @media (max-width: 480px) {
     body {
@@ -483,10 +478,12 @@ Video
     .modal-content {
         width: 90%;
     }
+    .modal-content2{
+        width: 90%;
+        margin: auto auto auto 55px;
+    }
 
 }
-
-
 
 
 

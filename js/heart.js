@@ -112,7 +112,7 @@ FX.setFullscreen = function() {
  */
 // Update the FX.handleMouseEvent function to handle both mouse and touch events
 FX.handleMouseEvent = function(e, power) {
-    var radius = window.innerWidth < 480 ? 90 : window.innerWidth < 768 ? 100 : 150, // Adjust radius based on screen size
+    var radius = window.innerWidth < 480 ? 50 : window.innerWidth < 768 ? 100 : 150, // Adjust radius based on screen size
         k = FX.dots.length,
         i = 0,
         mx, my,
