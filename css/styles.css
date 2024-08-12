@@ -85,13 +85,13 @@ GENERAL CLASSES
 .button {
     margin-top: 30px;
     text-align: center;
-    padding: 10px;
+    padding: 30px;
     font-size: 24px;
 }
 .button a {
     text-decoration: none;
     display: inline-block;
-    width: 90px;
+    width: auto;
     height: 30px;
     background: #9b5c75;
     color: #ffffff;
@@ -99,12 +99,11 @@ GENERAL CLASSES
     text-align: center;
     text-transform: uppercase;
     border: #8c6274 solid 3px;
-    padding-bottom: 40px;
-    padding-top: 10px;
     font-size: 32px; /* Increase font size */
     line-height: 32px;
     border-radius: 10px;
     cursor: pointer;
+    padding: 10px 20px 40px;
 }
 .button a:hover {
     background: #efefef;
